@@ -1,0 +1,19 @@
+{
+    "include": [
+        "./src/**/*"
+    ],
+    "compilerOptions": {
+        "lib": [
+            "dom",
+            "esnext"
+        ],
+        "jsx": "react",
+        "strict": true,
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "target": "esnext",
+        "allowSyntheticDefaultImports": true
+    }
+}
